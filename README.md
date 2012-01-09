@@ -7,6 +7,6 @@ Both versions are playable online:
  * [Inform 7 version](http://parchment.game-testing.org/play/parchment.full.html?story=http://starborn.googlecode.com/svn/trunk/Starborn.z8)
  * [Undum version](http://transcripts.game-testing.org/undum/starborn/)
 
-The Inform 7 version can be played online. Installation instructions can be found at the [Interactive Fiction Database](http://ifdb.tads.org/dladviser?id=xxzy1f49yw1n6ghj).
+The Inform 7 version can be played offline. Installation instructions can be found at the [Interactive Fiction Database](http://ifdb.tads.org/dladviser?id=xxzy1f49yw1n6ghj).
 
 Data collected from the online plays of the story was used to analyze some common patterns and improving the parser version. Those statistics and other discussion of the game can be found from the [Undo Restart Restore blog](http://nitku.net/blog/tag/starborn-2/). 
