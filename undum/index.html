@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Starborn</title>
+
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/starborn.css" />
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+	<script type="text/javascript">
+	if( typeof jQuery == 'undefined' ) {
+	    document.write( unescape( "%3Cscript src='lib/jquery-1.7.1.min.js' type='text/javascript'%3E%3C/script%3E" ) );
+	}
+	</script>
+
+    <script type="text/javascript" src="lib/undum.js"></script>
+	<script type="text/javascript" src="lib/jquery.qtip.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.json-2.2.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="lib/if-recorder.min.js"></script>
+    <script type="text/javascript" src="lib/vorple.min.js"></script>
+	
+    <script type="text/javascript" src="starborn.game.en.js"></script>
+    
+    <link rel="stylesheet" type="text/css" media="all" href="lib/qtip/jquery.qtip.min.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+</head>
+
+<body>
+<div id="fixed-wrapper">
+
+<div id="header">
+   	<div id="site-title">
+   		Starborn
+   	</div>
+	<div id="bg-picture"></div>
+
+</div>
+</div>
+
+<div id="wrapper">
+<div id="main">
+	<div id="left-bar" class="sidebar">
+	   <div id="map"></div>
+	</div>
+
+	<div id="save-buttons" class="buttons">
+		<button id="save">Save</button><button id="erase">Erase</button>
+	</div>
+	
+	<div id="right-bar" class="sidebar">
+	    <img src="css/images/sound-on.png" id="mute-button" title="Toggle sound" alt="Toggle sound" />
+    	<div id="actionButtons"></div>
+	</div>
+
+	<div id="content">
+	</div>
+
+                
+    <a name="end_of_content"></a>
+
+
+
+<div style="clear: both;"></div>
+
+</div>
+</div>
+
+<div id="footer-frame">
+	<div id="footer">
+	    <div id="legal">
+	        	Starborn &copy; 2011 Juhana Leinonen
+	        	<br />
+	            Powered by <a href="http://undum.com">Undum</a> 
+	            and <a href="http://vorple-if.com">Vorple
+	            <span class="vorple-version"></span></a>
+	            <br />
+				<em>Atmospheric Augmentation</em> theme by 
+	        <a href="http://tsegwordpressthemes.com/atmospheric-augmentation">
+	        	The Search Engine Guys, LLC</a>
+	        	<br />
+	        	Music by 
+        	<a href="http://www.jamendo.com/en/album/84388">softspace</a>
+		</div>
+	</div>
+</div>
+
+<div id="ui_library">
+      <div id="turn_separator" class="turn_separator"></div>
+</div>
+<script>
+// fix content location
+$( function() {
+    $( '#main' ).css( 'margin-top', $( '#site-title' ).height()+'px' );
+} );
+</script>
+
+</body>
+</html>
