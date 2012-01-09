@@ -1,6 +1,6 @@
 *Starborn* is a short interactive sci-fi story.
 
-There are two versions: the original [Inform 7](http://inform7.com) version (2011) has a parser that has the reader type in keywords to advance the story. The [Vorple](http://vorple-if.com)-enhanced [Undum](http://undum.com) version (2012) is identical in content but has a clickable keywords and a map.
+There are two versions: the original [Inform 7](http://inform7.com) version (2011) has a parser that has the reader type in keywords to advance the story. The [Vorple](http://vorple-if.com)-enhanced [Undum](http://undum.com) version (2012) is identical in content but has clickable keywords and a map.
 
 Both versions are playable online:
 
