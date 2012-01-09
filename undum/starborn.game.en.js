@@ -204,7 +204,7 @@ undum.game.situations.exerciseroom = new undum.Situation({
                     + "actively to get any kind of muscle mass." )
                     + vorple.html.p( "It's of not much use, though. There is no "
                     + "training equipment for the " 
-                    + vorple.html.link( 'heart', 'heart', { "class": 'once' } )
+                    + vorple.html.link( './heart', 'heart', { "class": 'once' } )
                     + " muscle." 
                 )
             );
@@ -643,6 +643,7 @@ undum.game.init = function( character, system ) {
     // The other exceptions.
     vorple.undum.settings.disposableExceptions.push( 'mirror' );
     vorple.undum.settings.disposableExceptions.push( 'ticketmachine' );
+    vorple.undum.settings.disposableExceptions.push( 'airlock' );
     
     // initialize Vorple
     vorple.core.init( system );
