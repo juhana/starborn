@@ -1,5 +1,9 @@
+body {
+	background: no-repeat fixed center 0 url('images/main-bg.jpg') #24271B;
+}
+
 .uiButtonContainer {
-	po-sition:fixed;
+	position:fixed;
 	top:10px;
 	width:195px;
 	background:white;
